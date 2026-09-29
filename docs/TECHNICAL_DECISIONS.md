@@ -65,7 +65,7 @@ La etapa inicial solo comprueba apertura de almacenamiento; no calcula ingresos 
 
 En V0.2 se añadió el repositorio de servicios con Flow, validación de entradas y ViewModel con SavedStateHandle para el formulario. El esquema de Room sigue en versión 1: las operaciones CRUD no cambian tablas ni columnas. Las ediciones actualizan solo monto, nota, fecha del servicio y updatedAt; preservan createdAt y fareId. Los totales usan BigDecimal para no desbordar al sumar importes. Las inserciones toman un único instante del reloj para fecha del servicio y fechas de auditoría.
 
-Las pruebas usan el build type `qa` (`pe.mitaxi.app.qa`) para aislar la instalación/desinstalación instrumentada de la app de uso diario. Las tareas son `testQaUnitTest` y `connectedQaAndroidTest`. Para uso manual en Android Studio seleccionar el build variant `debug`.
+Las pruebas utilizan el build type por defecto `debug` (`pe.mitaxi.app`) con las tareas estándar `testDebugUnitTest` y `connectedDebugAndroidTest`. Se mantiene la variante `qa` (`pe.mitaxi.app.qa`) en el build script por si se requiere aislar instalaciones en dispositivo.
 
 V0.2.1 adelanta el registro rápido a Inicio con importes iniciales 500/600/700/1000 céntimos. El ViewModel guarda mediante el mismo repositorio, bloquea pulsaciones rápidas durante 600 ms y ofrece Deshacer sobre el ID exacto recién creado. Los botones no son todavía configurables. Otro monto solo pide importe, con foco y teclado numérico; las notas existentes se preservan en edición avanzada. La configuración de tarifas sigue en V0.5. No cambió el esquema ni se borraron notas históricas. Gastos se diseñará sin nota por instrucción expresa del usuario.
 

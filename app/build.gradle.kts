@@ -27,7 +27,6 @@ android {
             matchingFallbacks += "debug"
         }
     }
-    testBuildType = "qa"
     buildFeatures { compose = true }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17

@@ -18,9 +18,9 @@ En PowerShell, con el Android Studio instalado en su ubicación habitual:
 ```powershell
 $env:JAVA_HOME = 'C:\Program Files\Android\Android Studio\jbr'
 .\gradlew.bat :app:assembleDebug :app:lintDebug
-.\gradlew.bat :app:testQaUnitTest
+.\gradlew.bat :app:testDebugUnitTest
 # Con emulador o teléfono conectado:
-.\gradlew.bat :app:connectedQaAndroidTest
+.\gradlew.bat :app:connectedDebugAndroidTest
 ```
 
 APK de depuración: `app/build/outputs/apk/debug/app-debug.apk`.
