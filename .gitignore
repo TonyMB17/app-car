@@ -1,0 +1,13 @@
+.gradle/
+.kotlin/
+.idea/
+**/build/
+local.properties
+*.iml
+*.jks
+*.keystore
+.DS_Store
+graphify-out/
+build-validation.log
+widget-validation.log
+widget-integration.log

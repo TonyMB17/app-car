@@ -1,0 +1,15 @@
+<resources>
+    <style name="WidgetFareButton">
+        <item name="android:layout_width">0dp</item><item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item><item name="android:layout_margin">4dp</item>
+        <item name="android:minHeight">48dp</item><item name="android:background">@drawable/widget_button</item>
+        <item name="android:backgroundTint">#735C00</item><item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">22sp</item><item name="android:textAllCaps">false</item>
+    </style>
+    <style name="WidgetSmallButton">
+        <item name="android:layout_width">0dp</item><item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item><item name="android:textColor">#332900</item>
+        <item name="android:backgroundTint">#FFE89B</item><item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

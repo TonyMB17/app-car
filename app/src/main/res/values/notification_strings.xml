@@ -1,0 +1,12 @@
+<resources>
+    <string name="notification_title">Registro rápido</string>
+    <string name="notification_setting">Registro rápido en notificaciones</string>
+    <string name="notification_hint">Despliega la notificación para guardar con un toque. Usa tus tarifas de abajo.</string>
+    <string name="notification_channel">Registro de servicios</string>
+    <string name="notification_expand">Despliega para ver tus tarifas</string>
+    <string name="notification_permission">Permite las notificaciones de Mi Taxi para mostrar el registro rápido.</string>
+    <string name="notification_open_settings">Permisos de notificaciones</string>
+    <string name="notification_show">Volver a mostrar</string>
+    <string name="notification_error">No se pudo actualizar la notificación. Inténtalo otra vez.</string>
+    <string name="notification_saved">✓ Guardado: %1$s · %2$s</string>
+</resources>
